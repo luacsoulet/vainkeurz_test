@@ -18,12 +18,13 @@
 
 body {
   color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+  margin: 0; 
+  height: 100vh; 
+  background: #fbc2eb;
+  background: linear-gradient(62deg, #20143f 0%, #180522 100%);
+  background-size: cover; 
+  background-repeat: no-repeat; 
+  background-attachment: fixed;
 }
 
 @layer utilities {

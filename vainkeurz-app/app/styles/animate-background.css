@@ -1,0 +1,33 @@
+/* Votre fichier CSS, par exemple styles.css */
+.background-animation {
+    height: 250px;
+    width: 100%;
+    background: linear-gradient(
+        45deg,
+        #3b276d,
+        #180522,
+        #3c2553,
+        #2a1a3e
+    );
+    background-size: 400% 400%;
+    animation: colorShift 60s ease-in-out infinite;
+}
+
+@keyframes colorShift {
+    0% {
+        background-position: 0% 50%;
+    }
+    25% {
+        background-position: 100% 50%;
+    }
+    50% {
+        background-position: 50% 100%;
+    }
+    75% {
+        background-position: 50% 0%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
+}
+
