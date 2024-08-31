@@ -116,7 +116,7 @@ function ManageTrophy() {
       setTimeout(() => setShowPopup(false), 3000);
       setSelectedOption('');
       setSelectedPseudo('');
-      query('');
+      setQuery('');
 
     } catch (error) {
       setPopupMessage('Erreur lors de l\'ajout du trophée');
