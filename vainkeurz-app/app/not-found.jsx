@@ -13,6 +13,7 @@ export default function Custom404() {
             >
                 404
             </motion.h1>
+            {/* eslint-disable react/no-unescaped-entities */}
             <motion.p 
                 className="text-2xl mb-8"
                 initial={{ opacity: 0, y: 20 }}
