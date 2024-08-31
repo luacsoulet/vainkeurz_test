@@ -11,7 +11,7 @@ export default function Home() {
         transition={{ duration: 1, ease: 'easeInOut' }}
         className="text-6xl font-bold mb-8"
       >
-        Page d'accueil
+        Page d&apos;accueil
       </motion.div>
       
       <motion.p
@@ -20,7 +20,7 @@ export default function Home() {
         transition={{ duration: 1, ease: 'easeInOut', delay: 0.5 }}
         className="text-lg text-center max-w-md"
       >
-        Bienvenue sur la page d'accueil ! Utilisez le menu à gauche pour naviguer vers les autres pages.
+        Bienvenue sur la page d&apos;accueil ! Utilisez le menu à gauche pour naviguer vers les autres pages.
       </motion.p>
     </main>
   );
